@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='advertisegwtserver'>
+  <!-- Add necessary source paths.                               -->
+  <source path='client'/>
+  <source path='domain'/>
+  <source path='service'/>
+    
+  <!-- Inherit the core Web Toolkit stuff and Restlet core module.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='org.restlet.Restlet' />
+  
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.advertiseserver.client.Advertiser'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+
+</module>
